@@ -1,0 +1,18 @@
+body {
+    background-color: peru;
+}
+
+h1 {
+    color:  white;
+    font-size : "25" ; 
+    font-family: "맑은고딕";
+}
+
+.form,
+.greetings{
+    display:  none ;
+}
+
+.showing{
+    display: block;
+}

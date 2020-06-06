@@ -2,6 +2,11 @@ const COORDS = 'coords';
 
 function handleSucess(position){
     console.log(position);
+    const coordObj = {
+        latitude : position.coords.latitude ,
+        longitude : position.coords.longitude ,
+    } ;
+    localStorage.setItem(COORDS, JSON.stringify(coordObj));
 }
 
 function askForCoords(){
